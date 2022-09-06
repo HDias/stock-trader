@@ -1,29 +1,15 @@
-# stock-trader
+# [stock-trader](https://www.udemy.com/share/101Wwu3@ymEGGueN8aiqXa9EiZNRPPEm_fkPyRl7JWruA4wmThxol7_T2pTg63fEkeAnIY8=/)
+
+__________
+ - Projeto com objetivo de estudo.
 
 ## Project setup
 ```
-npm install
+yarn install
 ```
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+yarn serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
