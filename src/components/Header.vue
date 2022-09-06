@@ -27,16 +27,12 @@
         </v-list>
       </v-menu>
     </v-toolbar-items>
-
   </v-toolbar>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style>
-
 </style>
