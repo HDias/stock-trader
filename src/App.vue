@@ -1,23 +1,25 @@
 <template>
-	<v-app>
-		<Header />
-		<v-content>
-			<v-container>
-				<router-view></router-view>
-			</v-container>
-		</v-content>
-	</v-app>
+  <v-app>
+    <Header />
+    <v-content>
+      <v-container>
+        <router-view></router-view>
+      </v-container>
+    </v-content>
+  </v-app>
 </template>
 
 <script>
-import Header from './components/Header.vue';
+import Header from "./components/Header.vue";
 
 export default {
-	components: { Header }
-}
+  components: { Header },
+  created() {
+		this.$store.dispatch('initStocks')
+	},
+};
 </script>
 
 <style>
-
 </style>
 
