@@ -3,7 +3,7 @@ export default {
     funds: 1000,
     stocks: []
   },
-  mutation: {
+  mutations: {
     buyStock(state, { stockId, quantity, stockPrice }) {
       const record = state.stocks.find(element => element.id == stockId)
 
