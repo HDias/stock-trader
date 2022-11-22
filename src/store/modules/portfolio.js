@@ -20,7 +20,7 @@ export default {
     },
 
     sellStock(state, { stockId, quantity, stockPrice }) {
-      const record = staqte.stocks.find(element => element.id == stockId)
+      const record = state.stocks.find(element => element.id == stockId)
 
       if (record.quantity > quantity) {
         record.quantity -= quantity
